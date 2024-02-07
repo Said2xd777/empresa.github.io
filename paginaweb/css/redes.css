@@ -1,0 +1,45 @@
+      .social {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+      }
+      
+      .social a {
+        display: flex;
+     
+        margin: 20px;
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        transition: transform 0.3s ease;
+      }
+      
+      .social a:hover {
+        transform: translateY(-10px);
+        color: #c00;
+      }
+      
+      .social img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        margin-bottom: 10px;
+        filter: drop-shadow(2px 2px 0px rgba(255, 255, 255, 0.5));
+      }
+      
+      .phone {
+        display: flex;
+        font-size: 24px;
+        color: #333;
+      }
+      
+      .phone a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #333;
+        transition: transform 0.3s ease;
+      }
+      
+      .phone a:hover {
+        transform: translateY(-5px);
+        color: #c00;
