@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/diseño.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/Banner.css">
+  <link rel="stylesheet" type="text/css" href="css/inicio.css">
+  <link rel="stylesheet" type="text/css" href="css/redes.css">
+  <link rel="stylesheet" type="text/css" href="css/CCVT.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="funcionesJS.js"></script>
+	<title>inicio</title>
+   <style>
+    .contenedor{
+      width: 800px;
+      height: 355px;
+
+    }
+    #banner-container {
+      width: 970px;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-img {
+      width: 2000px;
+      height: auto;
+      display: none;
+    }
+
+    #prevBtn, #nextBtn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      cursor: pointer;
+      color: salmon;
+      background: red;
+    }
+
+    #prevBtn {
+      left: 15px;
+      color: skyblue;
+    }
+
+    #nextBtn {
+      right: 15px;
+    }
+  </style>
+</head>
+<body onload="banner()">
+
+	<a href="https://api.whatsapp.com/send?phone=525541166413&text=Hola%20,te%20asesoramos%20por
+%20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+		<header>
+  <nav>
+    <div class="left-container">
+      <div class="search-container">
+<img id="Logo"src="img/Logo.jpg" usemap="#Logo" >
+
+        <map name="Logo">
+<area shape="square" coords="2,2,394,276" href="index.html" alt="Area 1">
+        
+
+</map>
+      </div>
+    </div>
+
+
+
+    <div class="right-container">
+      <ul>
+        
+
+        <li class="dropdown">
+          <a href="nosotros.html" class="dropbtn">Sobre nosotros</a>
+          <div class="dropdown-content">
+            <a href="nosotros.html">Mision</a>
+            <a href="nosotros.html">Vision</a>
+           
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Compra</a>
+          <div class="dropdown-content">
+            <a href="Categorias.html">Categorias</a>
+            <a href="Categorias.html">Carrito</a>
+        
+          </div>
+        </li>
+            
+</div>
+        </li>
+
+            
+</div>
+        </li>
+     
+    </div>
+  </nav>
+</header>
+<main>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<center>
+		<div id="banner-container" class="contenedor">
+  <img class="banner-img" src="img/imagen1.jpeg" >
+  <img class="banner-img" src="img/Banner2.jpeg">
+  <img class="banner-img" src="img/Banner3.jpeg">
+  <img class="banner-img" src="img/Banner4.jfif">
+
+  <button id="prevBtn" onclick="changeBanner(-1)" ><</button>
+  <button id="nextBtn" onclick="changeBanner(1)">></button>
+</div>
+
+<script>
+  let currentBannerIndex = 0;
+  const banners = document.querySelectorAll('.banner-img');
+  const totalBanners = banners.length;
+
+  function showBanner(index) {
+    if (index < 0) {
+      currentBannerIndex = totalBanners - 1;
+    } else if (index >= totalBanners) {
+      currentBannerIndex = 0;
+    } else {
+      currentBannerIndex = index;
+    }
+
+    banners.forEach((banner, i) => {
+      banner.style.display = i === currentBannerIndex ? 'block' : 'none';
+    });
+  }
+
+  function changeBanner(direction) {
+    showBanner(currentBannerIndex + direction);
+  }
+
+  setInterval(() => {
+    changeBanner(1);
+  }, 3000);
+
+  showBanner(0); 
+</script>
+
+<br><br><br><br><br>
+<font id="titulo">
+<h1 >Productos</h1>
+<br><br><br></font>
+<table CELLPADDING="25" ALIGN="center">
+	<tr>
+	<td><center><img id="pro1" src="img/pro1.png" usemap="#pro1"><map name="pro1">
+	<area shape="square" coords="2,4,145,149" href="Circuito.html" alt="Area 1">
+<br><font id="productos">Circuito Cerrado de Televisión</center></td>
+<td><center><img id="pro2" src="img/pro2.png" usemap="#pro2"><map name="pro2">
+<area shape="square" coords="2,4,145,149" href="Control.html" alt="Area 1">
+<br><font id="productos">Control de Acceso</td></center>
+<td><center><img id="pro3" src="img/pro3.png" usemap="#pro3"><map name="pro3">
+<area shape="square" coords="2,4,145,149" href="Alarmas.html" alt="Area 1">
+	<br><font id="productos">Sistema de Alarmas</center></td>
+<td ><center><img id="pro4" src="img/pro4.png" usemap="#pro4"><map name="pro4">
+	<area shape="square" coords="2,4,145,149" href="Redes.html" alt="Area 1">
+<br><font id="productos">Redes</td></tr>
+<tr>
+<td><center><img id="pro5" src="img/pro5.png" usemap="#pro5"><map name="pro5">
+	<area shape="square" coords="2,4,145,149" href="computo.html" alt="Area 1">
+<br><font id="productos">Computo</td>
+<td><center><img id="pro6" src="img/pro6.png" usemap="#pro6"><map name="pro6">
+	<area shape="square" coords="2,4,145,149" href="cable.html" alt="Area 1">
+<br><font id="productos">Cableado Estructurado</center></td>
+<td><center><img id="pro7" src="img/pro7.png" usemap="#pro7"><map name="pro7">
+	<area shape="square" coords="2,4,145,149" href="Vigi.html" alt="Area 1">
+<br><font id="productos">Vigilancia Administrativa</center></td>
+<td><center><img id="pro8" src="img/pro8.png" usemap="#pro8"><map name="pro8">
+	<area shape="square" coords="2,4,145,149" href="Moni.html" alt="Area 1">
+<br><font id="productos">Central de Monitoreo</center></tr>
+
+</table>
+</font>
+</main>
+</center>
+
+
+
+<br><br><br><br><br>
+ <footer>
+  <div id="pie">
+    <div id="aling">
+      <br><br>
+<table>
+  <tr>
+    <td id="fuente1">Contacto</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td id="fuente1">Escribenos</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td id="fuente1">Redes</td>
+  </tr>
+  <tr>
+<td>Artemio Guerrero Sanchez<br>+52 1 55 4324 2042</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="Form.html">Consultanos<br></a></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div></td>
+    <tr>
+  <td>Christian Narvaez<br>+52 1 55 4205 0093</td>
+  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+</tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+  <td>Artemio Guerrero Sanchez<br>aguerrero@gnsoltec.mx</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td>Christian Narvaez<br>cnarvaez@securex.com.mx</td>
+</tr>
+</table>
+
+</footer>
+
+
+</body>
+</html>
