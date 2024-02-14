@@ -222,9 +222,9 @@ height: 80px;
 	height: 350px;
 }
 #pie{
-background-color: ;
+background-color: #000000;
 width: 100%;
-height: 320px;
+height: 520px;
 margin-top: auto;
 }
 main{
@@ -296,15 +296,17 @@ margin-left: 150px}
     }
 
 
-    #fuente1{
+        #fuente1{
     	font-size: 25.5px;
-    	font-family: fuentes/fenix-regular;
+    	font-family: Arial;
     	font-style: normal;
+    	color: white;
     }
     #fuente2{
     	font-size: 17.5;
-    	font-family: fuentes/fenix-regular;
+    	font-family: Arial;
     	font-style: normal;
+    	color: white;
     }
     .social-icons {
 	display: flex;
