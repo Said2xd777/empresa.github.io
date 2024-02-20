@@ -1,0 +1,23 @@
+body{
+	font-family: fuente/Fenix-Regular;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, white, gray);
+}
+header{
+	background-color: ;
+	color: black;
+	padding: 1em;
+	text-align: center;
+	margin-top: 01%;
+}
+section{
+margin: 20px;
+}
+.producto{
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin: 10px;
+	background-color: black;
+	border-radius: 5px;
+}
