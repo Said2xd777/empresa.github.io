@@ -1,30 +1,70 @@
 <!DOCTYPE html>
-<html>
 <head>
+	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/diseño.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+
+	<link rel="stylesheet" type="text/css" href="css/diseño.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/Banner.css">
   <link rel="stylesheet" type="text/css" href="css/inicio.css">
   <link rel="stylesheet" type="text/css" href="css/redes.css">
   <link rel="stylesheet" type="text/css" href="css/CCVT.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-///
 	<script type="text/javascript" src="funcionesJS.js"></script>
-	<title>Clientes</title>
+	<title>inicio</title>
+   <style>
+    .contenedor{
+      width: 800px;
+      height: 355px;
+
+    }
+    #banner-container {
+      width: 970px;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-img {
+      width: 2000px;
+      height: auto;
+      display: none;
+    }
+
+    #prevBtn, #nextBtn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px;
+      cursor: pointer;
+      color: salmon;
+      background: red;
+    }
+
+    #prevBtn {
+      left: 15px;
+      color: skyblue;
+    }
+
+    #nextBtn {
+      right: 15px;
+    }
+  </style>
 </head>
-<body>
-<a href="https://api.whatsapp.com/send?phone=525541166413&text=Hola%20,te%20asesoramos%20por
+<body onload="banner()">
+
+	<a href="https://api.whatsapp.com/send?phone=525541166413&text=Hola%20,te%20asesoramos%20por
 %20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
-
-	<header>
+		<header>
   <nav>
     <div class="left-container">
       <div class="search-container">
-<img id="Logo"src="img/Logo.jpg" usemap="#Logo">
+<img id="Logo"src="img/Logo.jpg" usemap="#Logo" >
 
         <map name="Logo">
 <area shape="square" coords="2,2,394,276" href="index.html" alt="Area 1">
@@ -41,35 +81,25 @@
         
 
         <li class="dropdown">
-          <a href="#" class="dropbtn">Sobre nosotros</a>
+          <a href="nosotros.html" class="dropbtn">Sobre nosotros</a>
           <div class="dropdown-content">
-            <a href="des.html">Mision</a>
-            <a href="des1.html">Vision</a>
-           
+            <a href="nosotros.html">Mision</a>
+            <a href="nosotros.html">Vision</a>
+		  <a href="clientes.html">Clientes</a>
           </div>
         </li>
         <li class="dropdown">
           <a href="#" class="dropbtn">Compra</a>
           <div class="dropdown-content">
-            <a href="Comida.html">Categorias</a>
-            <a href="re.html">Carrito</a>
+            <a href="Categorias.html">Categorias</a>
+            <a href="Categorias.html">Carrito</a>
         
           </div>
         </li>
-        <li class="dropdown">
-          <a href="Form.html" class="dropbtn">Contacto</a>
-          <div class="dropdown-content">
-            <a href="cena.html">Whatsapp</a>
-            <a href="cena2.html">Correo</a>
             
 </div>
         </li>
 
-<li class="dropdown">
-           <a href="Clientes.html" class="dropbtn">Clientes</a>
-          <div class="dropdown-content">
-            <a href="pos.html">Cliente 1</a>
-            <a href="re.html">Cliente 2</a>
             
 </div>
         </li>
@@ -77,137 +107,217 @@
     </div>
   </nav>
 </header>
-<br><br><br><br><br><br><br><br><br>
+<main>
+
+<br><br><br><br><br><br>
+<style type="text/css">
+	
+.per {
+width: 250px;
+height: 400px;
+background-color: #FFFFFF ;
+padding: 50px;
+align-content: center;
+}
+
+.mag {
+	width: 210px;
+	height: 170px;
+
+}
+
+
+</style>
+
+
 
 <center>
-
-<font id="titulo">
-<h1 >Clientes</h1>
-<br></font>
-<table CELLPADDING="25" ALIGN="center">
+<h1>Clientes</h1>
+<br><br>
+<table>
 	<tr>
-	<td><center><img id="cli1" src="img/cli1.png">
-<br><font id="productos"><a href="#Dialogo1">CFE</a></center></td>
 
-<div id="Dialogo1" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>CFE</h2>
-		<p>¿Qué es la CFE? La Comisión Federal de Electricidad (CFE) es una empresa pública de carácter social que provee energía eléctrica, servicio fundamental para el desarrollo de una nación. </p>
-		<p>Es una empresa productiva del Estado, propiedad exclusiva del gobierno federal, con personalidad jurídica y patrimonio propio.</p>
-	</div>
-</div>  
+<td><div class="per"><img src="img/cliente1 (1).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4><br><br></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
 
-<td><center><img id="cli2" src="img/cli2.png">
-<br><font id="productos"><a href="#Dialogo2">Subway</a></center></td>
 
-<div id="Dialogo2" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Subway</h2>
-		<p>Actualmente, la marca SUBWAY® es la mayor cadena de sándwiches tipo submarino del mundo con más de 40,000 ubicaciones en todo el mundo. </p>
-		<p>Nos hemos convertido en la opción líder para las personas que buscan comidas nutritivas y rápidas que pueda disfrutar toda la familia.</p>
-	</div>
-</div> 
 
-<td><center><img id="cli3" src="img/cli3.png"> 
-	<br><font id="productos"><a href="#Dialogo3">Danone</a></center></td>
+<td><div class="per"><img src="img/cliente1 (2).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
-<div id="Dialogo3" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Danone</h2>
-		<p>Grupo Danone, más conocida como Danone, es una multinacional agroalimentaria francesa con sede en París, Francia </p>
-		<p>La empresa tiene cuatro actividades: productos lácteos frescos, aguas, nutrición infantil y nutrición médica.</p>
-	</div>
-</div> 
+
+
+
+<td><div class="per"><img src="img/cliente1 (3).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
 
 </tr>
-<tr><br>
-	<td><center><img id="cli4" src="img/cli3.png"> 
-	<br><font id="productos"><a href="#Dialogo4">Danone</a></center></td>
-
-<div id="Dialogo4" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Danone</h2>
-		<p>Grupo Danone, más conocida como Danone, es una multinacional agroalimentaria francesa con sede en París, Francia </p>
-		<p>La empresa tiene cuatro actividades: productos lácteos frescos, aguas, nutrición infantil y nutrición médica.</p>
-	</div>
-</div>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr>
+<tr>
+	<td><div class="per"><img src="img/cliente1 (4).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
 
 
 
+	<td><div class="per"><img src="img/cliente1 (5).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
 
-<td><center><img id="cli5" src="img/cli3.png"><br><font id="productos"><a href="#Dialogo5">Danone</a></center></td>
-
-<div id="Dialogo5" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Danone</h2>
-		<p>Grupo Danone, más conocida como Danone, es una multinacional agroalimentaria francesa con sede en París, Francia </p>
-		<p>La empresa tiene cuatro actividades: productos lácteos frescos, aguas, nutrición infantil y nutrición médica.</p>
-	</div>
-</div> 
 
 
-<td><center><img id="cli6" src="img/cli3.png"><br><font id="productos"><a href="#Dialogo6">Danone</a></center></td>
-
-<div id="Dialogo6" class="modalDialog">
-	<div>
-		<a href="#close" title="Close" class="close">X</a>
-		<h2>Danone</h2>
-		<p>Grupo Danone, más conocida como Danone, es una multinacional agroalimentaria francesa con sede en París, Francia </p>
-		<p>La empresa tiene cuatro actividades: productos lácteos frescos, aguas, nutrición infantil y nutrición médica.</p>
-	</div>
-</div>
+	<td><div class="per"><img src="img/cliente1 (6).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
 
- </tr>
+
+
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr>
+<tr>
+	<td><div class="per"><img src="img/cliente1 (7).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+
+	<td><div class="per"><img src="img/cliente1 (8).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+
+	<td><div class="per"><img src="img/cliente1 (9).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr>
+<tr>
+	<td><div class="per"><img src="img/cliente1 (10).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>
+
+	   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+
+	<td><div class="per"><img src="img/cliente1 (11).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>
+
+	   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+	<td><div class="per"><img src="img/cliente1 (12).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>
+
+	   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr>
+<tr>
+	<td><div class="per"><img src="img/cliente1 (13).png" class="mag" ></img><h4>La descripción de una empresa es un texto que ayuda a presentar tu negocio a los clientes potenciales, inversionistas, socios y empleados. Debe ser clara, concisa, atractiva y única.</h4></div></td>
+
+	   <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+</tr>
+
 </table>
-</font>
 
 </center>
 
-</center>
 
 
 
 
 
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
-<footer>
-	<div id="pie">
-<h1 id="aling"> CONTACTO</h1>
-		<h5 id="aling2">Tienes alguna duda o pregunta ¡¡Contactanos<br></h5><a href="Form.html" id="aling3">Aqui</a>
-		    <div class="social">
-      <a href="https://www.facebook.com" target="_blank">
-        <img src="https://img.icons8.com/color/96/000000/facebook-new.png" alt="Facebook">
-        <span>@Example</span>
-      </a>
-      <a href="https://www.instagram.com" target="_blank">
-        <img src="https://img.icons8.com/color/96/000000/instagram-new.png" alt="Instagram">
-        <span>@Example</span>
-      </a>
-   
-    </div>
-    <div class="phone">
-      <a href="tel:+1-555-1234-5678">(52) 1234-5678</a>
-        <a href="tel:+1-555-1234-5678"> (52) 1234-5678</a>
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+ <footer>
+  <div id="pie">
+    <div id="aling">
+	   <style>
+	    a {
+  color: gray; /* Cambiar el color del texto */
+  text-decoration: none; /* Eliminar la subraya */
+}
+
+/* Estilo para el enlace al pasar el cursor por encima */
+a:hover {
+  color: white; /* Cambiar el color del texto al pasar el cursor */
+}
+		   </style>
+      <br><br>
+<table>
+  <tr>
+    <td id="fuente1">Contacto</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+    <td id="fuente1">Redes</td>
+  </tr>
+  <tr>
+<td id="fuente2">Artemio Guerrero Sanchez<br><a href="sms: +52 55 4324 2042">+52 5543242042</a></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td>    <div class="social-icons">
+<style type="text/css">
+    .cbc:hover {
+    fill: gray; /* Cambia este valor al color que desees */
+}
+</style>
+  <a href="index.html"> <svg width="100" height="100" viewBox="0 0 100 100" fill="white" xmlns="http://www.w3.org/2000/svg" class="cbc">
+<rect width="100" height="100" fill="black"/>
+<g id="Insta">
+<path id="Vector" d="M32 6C17.66 6 6 17.66 6 32V68C6 82.34 17.66 94 32 94H68C82.34 94 94 82.34 94 68V32C94 17.66 82.34 6 68 6H32ZM74 22C76.2 22 78 23.8 78 26C78 28.2 76.2 30 74 30C71.8 30 70 28.2 70 26C70 23.8 71.8 22 74 22ZM50 28C62.14 28 72 37.86 72 50C72 62.14 62.14 72 50 72C37.86 72 28 62.14 28 50C28 37.86 37.86 28 50 28ZM50 32C40.08 32 32 40.08 32 50C32 59.92 40.08 68 50 68C59.92 68 68 59.92 68 50C68 40.08 59.92 32 50 32Z">
+</g>
+</svg></a>
+
+<a href="Facebook.com"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 60 60" width="100px" height="100px" class="cbc" fill="white">
+  <rect width="5000" height="5000" fill="black"/><path d="M48,7H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h17V38h-6v-7h6v-5c0-7,4-11,10-11c3.133,0,5,1,5,1v6h-4 c-2.86,0-4,2.093-4,4v5h7l-1,7h-6v17h8c4.418,0,8-3.582,8-8V15C56,10.582,52.418,7,48,7z"/></svg></a>
 	
-	 
+    </div></td>
+    <tr>
+  <td id="fuente2">Christian Narvaez<br><a href="sms: +52 5541166413">+52 55 4205 0093</a></td>
+  <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
-</div>
-</div>
+</tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+  <td id="fuente2">Artemio Guerrero Sanchez<br><a href="mailto: saidale1206@gmail.com">saidale1206@gmail.com</a>
+</form></td>
+    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td id="fuente2">Christian Narvaez<br><a href="mailto: cnarvaez@securex.com.mx">cnarvaez@securex.com.mx<br><br><a href="Form.html">Consultanos</a></td>
+</tr>
+</table>
 
 </footer>
+
+
 </body>
 </html>
