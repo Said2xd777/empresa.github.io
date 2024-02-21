@@ -222,7 +222,7 @@ height: 80px;
 	height: 350px;
 }
 
-.pie {
+.pie{
     width: 50%;
     background-color: black;
 }
@@ -230,8 +230,36 @@ height: 80px;
 @media (max-width: 800px) {
     .pie{
         width: 100%;
-        background-color: blue;
+        background-color: black;
     }
+@media (max-width: 1200px){ 
+        /* Styles! */
+	  .pie{
+        width: 100%;
+        background-color: black;
+    }
+}
+
+/* If screen size is MORE than 800px wide */
+@media (min-width: 800px){ 
+        /* Styles! */
+	  .pie{
+        width: 100%;
+        background-color: black;
+    }
+}
+
+/* If screen size is BETWEEN 320px and 768px wide AND the orientation is in landscape mode */
+@media (min-width: 320px) and (max-width: 768px) and (orientation: landscape) { 
+        /* Styles! */
+	  .pie{
+        width: 100%;
+        background-color: black;
+    }
+}
+
+
+	
 }
 main{
 	flex: 1;
