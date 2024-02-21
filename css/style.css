@@ -224,11 +224,8 @@ height: 80px;
 #pie{
 background-color: #000000
 margin-top: auto;
-	max-width: 100%;
-}
-	@media screen and (max-width: 600px){
-		footer{
-			font-size: 14px;
+	width: 100%;
+	heigth: 100%;
 }
 
 main{
