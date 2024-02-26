@@ -366,14 +366,14 @@ margin-left: 150px}
  }
  .link h3{
     font-size: 18px;
-    color: red;
+    color: white;
     font-family:  fuente/Fenix-regular;
     text-transform: uppercase;
     margin-bottom: 20px;
  }
  .link a{
     font-size: 16px;
-    color: black;
+    color: grey;
     display: block;
     margin-bottom: 10px;
  }
