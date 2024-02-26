@@ -379,7 +379,7 @@ margin-left: 150px}
 .responsive-table th, .responsive-table td {
     border: 0;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -398,7 +398,7 @@ margin-left: 150px}
 
     .responsive-table tbody td {
         display: block;
-        text-align: right;
+        text-align: left;
     }.table-container {
     overflow-x: auto;
     margin: 20px;
@@ -411,7 +411,7 @@ margin-left: 150px}
 
 .responsive-table th, .responsive-table td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
