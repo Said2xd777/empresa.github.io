@@ -443,3 +443,10 @@ margin-left: 150px}
         text-align: center;
     }
 }
+
+.red{
+	width: 400px;
+	height: 400px;
+	background-color: gray;
+	padding: 10px;
+}
