@@ -407,6 +407,7 @@ margin-left: 150px}
     .responsive-table tbody tr {
         display: block;
         margin-bottom: 15px;
+	    aling:center;
     }
 
     .responsive-table tbody td {
