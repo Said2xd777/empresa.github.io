@@ -406,13 +406,10 @@ margin-left: 150px}
 
 .responsive-table {
     width: 100%;
-    border-collapse: collapse;
-    border: 1px solid #ddd;
     margin-bottom: 20px;
 }
 
 .responsive-table th, .responsive-table td {
-    border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
