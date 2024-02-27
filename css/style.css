@@ -196,8 +196,9 @@ height: 80px;
 }
 #titulo{
 	font-family: fuentes/fenix-regular;
-	font-size: 2.0vw;
+	font-size: 1em;
 	font-style: none;
+	text-aling: center;
 	color: greey;
 }
 
