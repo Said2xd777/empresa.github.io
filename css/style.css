@@ -397,6 +397,18 @@ aling: center;
 	padding: 50px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
+   .contenedor3 {
+            max-width: 600px; 
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .contenedor3 img {
+            max-width: 100%;
+            height: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
 @media (max-width: 600px) {
     .responsive-table {
         display: block;
