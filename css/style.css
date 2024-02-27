@@ -409,7 +409,7 @@ aling: center;
             display: block; 
             margin: 0 auto; 
         }
-.contenedor3 p{
+	 .p {
 	aling: center;
 	font-family: fuente/fenix-regular;
 	font-size: 1em;
