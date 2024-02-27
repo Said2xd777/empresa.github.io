@@ -8,12 +8,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-table{
-	widht:100%;
-}
-th, td{
-	color:#000000;
-}
 img{
 	border-radius: 10px;
 	widht: 50%;
@@ -386,7 +380,8 @@ margin-left: 150px}
     width: 100%;
     border-collapse: collapse;
     border: 0;
-    margin-bottom: 20px;
+    margin-bottom: 20px;	
+aling: center;
 }
 
 .responsive-table th, .responsive-table td {
