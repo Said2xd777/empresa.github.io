@@ -431,14 +431,14 @@ aling: center;
 .blog-1 h3{
     font-size: 20px;
     color: black;
-    font-family:  Arial, Helvetica, sans-serif;
+    font-family:  fuente/Fenix-Regular;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
  .blog p{
     font-size: 16px;
     color: black;
-	 font-family: fuentes/fenix-regular;
+	 font-family: fuentes/Fenix-Regular;
  }
 @media (max-width: 600px) {
     .responsive-table {
