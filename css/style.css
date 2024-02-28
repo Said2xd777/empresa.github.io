@@ -438,7 +438,8 @@ aling: center;
  .blog p{
     font-size: 16px;
     color: black;
-	 font-family: fuentes/Fenix-Regular;
+	 font-family: fuente/Fenix-Regular;
+	 aling: right;
  }
 @media (max-width: 600px) {
     .responsive-table {
