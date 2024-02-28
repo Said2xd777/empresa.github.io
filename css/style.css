@@ -439,7 +439,7 @@ aling: center;
     font-size: 16px;
     color: black;
 	 font-family: fuente/Fenix-Regular;
-	 aling: right;
+	 aling: left;
  }
 @media (max-width: 600px) {
     .responsive-table {
