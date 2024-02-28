@@ -1,199 +1,86 @@
-body{
-	font-family: fuente/Fenix-Regular;
-	margin: 0;
-	padding: 0;
-	
-}
-header{
-	background-color: ;
-	color: black;
-	padding: 1em;
-	text-align: center;
-	margin-top: 01%;
-}
-section{
-margin: 20px;
-}
-.producto{
-	border: 1px solid #ddd;
-	padding: 10px;
-	margin: 10px;
-	background-color: black;
-	border-radius: 5px;
-}
+ .header3 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
 
-#pricing-table {
-	margin: 100px auto;
-	text-align: center;
-	width: 1000px;
-}
+        .main1 {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-#pricing-table .plan {
-	font: 20px 'fuente/Fenix-Regular';
-	text-shadow: 0 1px rgba(255,255,255,.8);        
-	background: #fff;      
-	border: 1px solid #ddd;
-	color: #333;
-	padding: 20px;
-	width: 1000px;      
-	float: center;
-	position: relative;
-}
+        .section2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
 
-#pricing-table #most-popular {
-	z-index: 2;
-	top: 13px;
-	border-width: 3px;
-	padding: 30px 20px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
-	-webkit-box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);
-	box-shadow: 20px 0 10px -10px rgba(0, 0, 0, .15), -20px 0 10px -10px rgba(0, 0, 0, .15);    
-}
+        .product {
+            width: 48%;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 0;
+            border-radius: 4px;
+        }
 
-#pricing-table .plan:nth-child(1) {
-	-moz-border-radius: 5px 0 0 5px;
-	-webkit-border-radius: 5px 0 0 5px;
-	border-radius: 5px 0 0 5px;        
-}
-
-#pricing-table .plan:nth-child(4) {
-	-moz-border-radius: 0 5px 5px 0;
-	-webkit-border-radius: 0 5px 5px 0;
-	border-radius: 0 5px 5px 0;        
-}
-
-/* --------------- */	
-
-#pricing-table h3 {
-	font-size: 30px;
-	font-weight: normal;
-	padding: 20px;
-	margin: -20px -20px 50px -20px;
-	background-color: #eee;
-	background-image: -moz-linear-gradient(gray,#eee);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(#eee));    
-	background-image: -webkit-linear-gradient(#fff, #eee);
-	background-image: -o-linear-gradient(#fff, #eee);
-	background-image: -ms-linear-gradient(#fff, #eee);
-	background-image: linear-gradient(#fff, #eee);
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
 }
 
-#pricing-table #most-popular h3 {
-	background-color: #ddd;
-	background-image: -moz-linear-gradient(#eee,#ddd);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ddd));    
-	background-image: -webkit-linear-gradient(#eee, #ddd);
-	background-image: -o-linear-gradient(#eee, #ddd);
-	background-image: -ms-linear-gradient(#eee, #ddd);
-	background-image: linear-gradient(#eee, #ddd);
-	margin-top: -30px;
-	padding-top: 30px;
-	-moz-border-radius: 5px 5px 0 0;
-	-webkit-border-radius: 5px 5px 0 0;
-	border-radius: 5px 5px 0 0; 		
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
 }
 
-#pricing-table .plan:nth-child(1) h3 {
-	-moz-border-radius: 5px 0 0 0;
-	-webkit-border-radius: 5px 0 0 0;
-	border-radius: 5px 0 0 0;       
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
 }
 
-#pricing-table .plan:nth-child(4) h3 {
-	-moz-border-radius: 0 5px 0 0;
-	-webkit-border-radius: 0 5px 0 0;
-	border-radius: 0 5px 0 0;       
-}	
-
-#pricing-table h3 span {
-	display: block;
-	font: bold 25px/100px Georgia, Serif;
-	color: #777;
-	background: #fff;
-	border: 5px solid #fff;
-	height: 100px;
-	width: 100px;
-	margin: 10px auto -65px;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-	-moz-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-	-webkit-box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
-	box-shadow: 0 5px 20px #ddd inset, 0 3px 0 #999 inset;
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
 }
 
-/* --------------- */
-
-#pricing-table ul {
-	margin: 20px 0 0 0;
-	padding: 0;
-	list-style: none;
-}
-
-#pricing-table li {
-	border-top: 1px solid #ddd;
-	padding: 10px 0;
-}
-
-/* --------------- */
-	
-#pricing-table .signup {
-	position: relative;
-	padding: 8px 20px;
-	margin: 20px 0 0 0;  
-	color: #fff;
-	font: bold 14px Fenix-Regular, ;
-	text-transform: uppercase;
-	text-decoration: none;
-	display: inline-block;       
-	background-color: gray;
-	background-image: -moz-linear-gradient(gray, #gray);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(#gray));    
-	background-image: -webkit-linear-gradient(gray, #gray);
-	background-image: -o-linear-gradient(gray, #gray);
-	background-image: -ms-linear-gradient(gray, #gray);
-	background-image: linear-gradient(gray, #gray);
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;     
-	text-shadow: 0 1px 0 rgba(0,0,0,.3);        
-	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
-	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
-	box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 2px 0 rgba(0, 0, 0, .7);
-}
-
-#pricing-table .signup:hover {
-	background-color: #62bc30;
-	background-image: -moz-linear-gradient(#62bc30, #gray);
-	background-image: -webkit-gradient(linear, left top, gray bottom, from(blue), to(#gray));      
-	background-image: -webkit-linear-gradient(#62bc30, #gray);
-	background-image: -o-linear-gradient(#62bc30, #gray);
-	background-image: -ms-linear-gradient(#62bc30, #gray);
-	background-image: linear-gradient(#62bc30, #gray); 
-}
-
-#pricing-table .signup:active, #pricing-table .signup:focus {
-	background: #62bc30;       
-	top: 2px;
-	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
-	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset;
-	box-shadow: 0 0 3px rgba(0, 0, 0, .7) inset; 
-}
-
-/* --------------- */
-
-.clear:before, .clear:after {
-  content:"";
-  display:table
-}
-
-.clear:after {
-  clear:both
-}
-
-.clear {
-  zoom:1
-}
+        @media only screen and (max-width: 600px) {
+            .product {
+                width: 100%;
+            }
+        }
