@@ -537,6 +537,136 @@ nav {
 %20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal" class="float" target="_blank">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
+		<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Compra</title>
+  <link rel="stylesheet" type="text/css" href="css/diseño.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/Banner.css">
+  <link rel="stylesheet" type="text/css" href="css/inicio.css">
+  <link rel="stylesheet" type="text/css" href="css/redes.css">
+  <link rel="stylesheet" type="text/css" href="css/CCVT.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<a href="https://api.whatsapp.com/send?phone=525541166413&text=Hola%20,te%20asesoramos%20por
+%20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a><style>
+
+    #header3 {
+      background-color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      transition: top 0.3s;
+    }
+    #logo {
+      width: 50px;
+      height: auto;
+    }
+    .dropdown2 {
+      position: relative;
+    }
+    .dropdown-content2 {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 120px;
+      z-index: 1;
+    }
+    .dropdown2:hover .dropdown-content2 {
+      display: block;
+    }
+    .dropdown-content2 a {
+      display: block;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+    }
+    .dropdown-content2 a:hover {
+      background-color: #555;
+    }
+
+.right-container2 ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-container2 li {
+  margin-left: 20px;
+}
+
+.right-container2 li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.right-container2 li a:hover {
+  text-decoration: underline;
+}
+
+
+  </style>
+</head>
+<body>
+
+<header id="header3">
+  <div>
+    <img id="logo" src="img/logo.jpg" alt="Logo">
+  </div>
+  <div class="right-container2">
+      <ul>
+    <li><div class="dropdown2">
+      <span>Sobre Nosotros</span>
+      <div class="dropdown-content2">
+        <a href="#">Mision</a>
+        <a href="#">Vision</a>
+        <a href="#">Clientes</a>
+</li>
+
+<li></li><li></li>
+
+         <li><div class="dropdown2">
+      <span>Ventas</span>
+      <div class="dropdown-content2">
+        <a href="#">Carrito</a>
+        <a href="#">Compra</a>
+        <a href="#">Categorias</a></li>
+
+        <li></li><li></li>  <li></li><li></li>
+      </div>
+    </div>
+  </div></li>
+</header>
+
+
+
+<script>
+  let prevScrollPos = window.pageYOffset;
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+      document.getElementById("header3").style.top = "0";
+    } else {
+      document.getElementById("header3").style.top = "-50px";
+    }
+    prevScrollPos = currentScrollPos;
+  }
+</script>
+</div>
+        </li>
+     
+    </div>
 <br><br><br><br><br>
 <center>
 <div class="hover">
@@ -607,9 +737,9 @@ nav {
 <br><br><br><br><br>
 <center>
   <h1>Categorias</h1>
-<table>
+<table class="responsive-table">
 <tr>
-<td><div class="red">
+<td><div class="red" class="table-container">
   <h1>Categorias</h1><img src="img/b1.jpg" width="140px" height="140px"><br>Camaras aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 </div></td>
 
@@ -712,14 +842,10 @@ nav {
 
 
 
-
-
-
-
-	<br<br><br<<br><br><br><br><br><br><br<br>br<<br><br<br>br>
+    <br><br><br><br><br><br><br><br>
 <footer class="footer">
     <div class="footer-content container">
-	     <div class="link">
+         <div class="link">
         </div>
         <div class="link">
             <h3 id="fuente1">Contacto</h3>
@@ -730,7 +856,7 @@ nav {
                 <li id="fuente2">Christian Narvaez<br><a href="mailto: cnarvaez@securex.com.mx">cnarvaez@securex.com.mx<br><br><a href="Form.html">Consultanos</a></li>
             </ul>
         </div>
-	    <div class="link">
+        <div class="link">
         </div>
         <div class="link">
             <h3 id="fuente1">Examinar</h3>
@@ -738,29 +864,29 @@ nav {
                 <li id="fuente2">Sobre nosotros</li><br>
                 <li id="fuente2"><a href="#vision">Visión</a></li><br><br>
                 <li id="fuente2"><a href="#mision">Misión</a></li><br><br>
-                <li id="fuente2"><a href="clientes.html">Clientes</a></li><br><br>
-            </ul> 
+                <li id="fuente2"><a href="cientes.html">Clientes</li><br><br>
+            </ul>
         </div>
-	    <div class="link"></div>
         <div class="link">
             <h3 id="fuente1">Redes</h3>
             <ul>
-                <li><a href="index.html"> <svg width="82px" height="82px" viewBox="0 0 103 103" fill="white" xmlns="http://www.w3.org/2000/svg" class="cbc">
+                <li><a href="index.html"> <svg width="82px" height="82px" viewBox="0 0 100 100" fill="white" xmlns="http://www.w3.org/2000/svg" class="cbc">
 <rect width="4500" height="4500" fill="black"/>
 <g id="Insta">
 <path id="Vector" d="M32 6C17.66 6 6 17.66 6 32V68C6 82.34 17.66 94 32 94H68C82.34 94 94 82.34 94 68V32C94 17.66 82.34 6 68 6H32ZM74 22C76.2 22 78 23.8 78 26C78 28.2 76.2 30 74 30C71.8 30 70 28.2 70 26C70 23.8 71.8 22 74 22ZM50 28C62.14 28 72 37.86 72 50C72 62.14 62.14 72 50 72C37.86 72 28 62.14 28 50C28 37.86 37.86 28 50 28ZM50 32C40.08 32 32 40.08 32 50C32 59.92 40.08 68 50 68C59.92 68 68 59.92 68 50C68 40.08 59.92 32 50 32Z">
 </g>
 </svg></a></li>
-                <li><a href="Facebook.com"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 63 63" width="86px" height="86px" class="cbc" fill="white">
+                <li><a href="Facebook.com"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 58 58" width="86px" height="86px" class="cbc" fill="white">
   <rect width="4500" height="4500" fill="black"/><path d="M48,7H16c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h17V38h-6v-7h6v-5c0-7,4-11,10-11c3.133,0,5,1,5,1v6h-4 c-2.86,0-4,2.093-4,4v5h7l-1,7h-6v17h8c4.418,0,8-3.582,8-8V15C56,10.582,52.418,7,48,7z"/></a></svg>
     </li></li>
             </ul>
         </div>
-	        <div class="link">
+            <div class="link">
         </div>
-	    
+        
         </div>
 </footer>
+
 
 </body>
 </html>
