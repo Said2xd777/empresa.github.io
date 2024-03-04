@@ -155,7 +155,15 @@
     }
     prevScrollPos = currentScrollPos;
   }
-	const formulario = document.querySelector('form');
+	
+</script>
+</div>
+        </li>
+     
+    </div>
+<script src="SUBTITULO.js"></script>
+<script>
+const formulario = document.querySelector('form');
 formulario.addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -168,15 +176,7 @@ formulario.addEventListener('submit', function (event) {
 
     const enlaceMailto = `mailto:${destinatario}?subject=Mensaje%20de%20${encodeURIComponent(nombre)}&body=${encodeURIComponent(mensaje)}%0D%0A%0D%0A${encodeURIComponent(email)}`;
     window.location.href = enlaceMailto;
-});
-</script>
-</div>
-        </li>
-     
-    </div>
-<script src="SUBTITULO.js"></script>
-
-
+});</script>
 	<br><br><br><br><br><br><br><br>
   <div class="contenedor2">
     <h2>Contacto</h2>
@@ -184,7 +184,7 @@ formulario.addEventListener('submit', function (event) {
       <label for="username">Nombre:</label>
       <input type="text" id="username" name="username" required>
       <label for="password">Correo:</label>
-      <input type="password" id="correo" name="password" required>
+      <input type="text" id="correo" name="password" required>
       <label for="telefono">Telefono:</label>
       <input type="text"id="tele" name="tele" required>
       <textarea id="area" name="area"  placeholder="Escribe tus comentarios" ></textarea>
