@@ -35,6 +35,15 @@ label {
 	color: black;
 	margin-bottom: 5px;
 }
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
 input {
 	height: 40px;
