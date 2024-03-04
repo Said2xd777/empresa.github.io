@@ -1,19 +1,29 @@
-<!DOCTYPE html>
-<head>
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
 
-	<link rel="stylesheet" type="text/css" href="css/diseño.css">
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compra</title>
+  <link rel="stylesheet" type="text/css" href="css/diseño.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/Banner.css">
   <link rel="stylesheet" type="text/css" href="css/inicio.css">
   <link rel="stylesheet" type="text/css" href="css/redes.css">
   <link rel="stylesheet" type="text/css" href="css/CCVT.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="funcionesJS.js"></script>
-	<title>inicio</title>
+</head>
+<body>
+<a href="https://api.whatsapp.com/send?phone=525541166413&text=Hola%20,te%20asesoramos%20por
+%20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+
+</head>
+<body>
+
 <style>
 
  #header3 {
@@ -74,8 +84,6 @@
   text-decoration: underline;
 }
 
-
-/////////////\\\\\\\\\\\\\\\
 
 
 *{
@@ -164,7 +172,8 @@ img{
 .product img{
     width: 250px;
     height: 370px;
-    margin-bottom: 10px;
+    border: 2px solid;
+color: black;
 }
 .product h3{
     font-size: 20px;
@@ -213,12 +222,9 @@ img{
 }
 .blog-1{
     flex-basis: calc(33.3% - 30px);
-
 }
 .blog-1 img{
     margin-bottom: 20px;
-    width: 100px;
-    height: 50px;
 }
 .blog-1 h3{
     font-size: 20px;
@@ -479,34 +485,24 @@ img{
     background-color: gray;
 }
 
-@media (max-widht:768px){
-    .barra{
-    width: auto;
+
+@media screen and (max-width: 768px) {
+      .barra {
+        position: static;
+        width: auto;
+      }
     }
-}
+
 
 //////////////
 
 
-.blog-2{
-    flex-basis: calc(33.3% - 30px);
-    border: black 3px solid;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: gray;
-  padding: 10px;
-}
-.blog-2 img{
-    margin-bottom: 20px;
-}
-.blog-2 h3{
-    font-size: 20px;
-    color: black;
-    font-family:  Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-}
+.sub {
+width: 15px;
+height: 20px;
+background-color: red;
 
+}
 
  
 </style>
@@ -541,22 +537,7 @@ img{
 
 
 
-
-
-
-
-
-</head>
-<body onload="banner()">
-
-	<a href="https://api.whatsapp.com/send?phone=525541166413&text=Hola%20,te%20asesoramos%20por
-%20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal" class="float" target="_blank">
-<i class="fa fa-whatsapp my-float"></i>
-</a>
-
-
-
-		<header id="header3">
+<header id="header3">
   <div>
     <img id="Logo"src="img/Logo.jpg" usemap="#Logo" >
 
@@ -571,8 +552,8 @@ img{
     <li><div class="dropdown2">
       <span>Sobre Nosotros</span>
       <div class="dropdown-content2">
-        <a href="nosotros.html">Mision</a>
-        <a href="nosotros.html">Vision</a>
+        <a href="#mision">Mision</a>
+        <a href="#vision">Vision</a>
         <a href="clientes.html">Clientes</a>
 </li>
 
@@ -582,7 +563,7 @@ img{
       <span>Ventas</span>
       <div class="dropdown-content2">
         <a href="carrito.html">Carrito</a>
-        <a href="compra.html">Compra</a>
+        <a href="compras.html">Compra</a>
         <a href="categorias.html">Categorias</a></li>
 
         <li></li><li></li>  <li></li><li></li>
@@ -600,10 +581,33 @@ img{
 <script src="JavaScript/SUBTITULO.js"></script>
 
 <br><br><br><br><br><br>
-<main>
 
-<br><br><br><br><br><br>
-	<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Videovigilancia</h1>
+
+<div class="barra">
+    <div class="container">
+    <div class="search-bar">
+     
+     </div>
+
+      <input type="text" class="search-input" placeholder="Buscar...">
+      <input type="submit" name="bt1" value="Buscar...">
+                 <input type="submit" name="bt1" value="Filtro">
+
+
+    </div>
+</div>
+</div>
+
+
+
+
+
+</center>
+<br><br><br>
+
+
+ 
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Videovigilancia</h1>
 
 
 <br><br>
@@ -753,31 +757,7 @@ img{
 <input type="submit" name="bt3" class="sub"  value="5">
 
 <input type="submit" name="bt3" class="sub"  value="->">
-</center><br><br><br>
-
-EdgeRouter 6 PoE pasivo 24 V
-</h3>
-        <p><a href="#">UBIQUITI NETWORKS</a><br> puertos 10/100/1000 Mbps + 1 puerto SFP, con funciones avanzadas de ruteo</p>
-    </div>
- </section>
-
-
-
-<br><br>
-
-<center>
-<input type="submit" name="bt3" class="sub"  value="<-">
-
-<input type="submit" name="bt3" class="sub"  value="1">
-<input type="submit" name="bt3" class="sub"  value="2">
-<input type="submit" name="bt3" class="sub"  value="3">
-<input type="submit" name="bt3" class="sub"  value="4">
-<input type="submit" name="bt3" class="sub"  value="5">
-
-<input type="submit" name="bt3" class="sub"  value="->">
 </center>
-
-
 
 
 
