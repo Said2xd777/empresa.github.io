@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email = $_POST["email"];
   $mensaje = $_POST["mensaje"];
 
-  $destinatario = "correo_destino@example.com";
+  $destinatario = "gnprueba9@gmail.com";
   $asunto = "Nuevo mensaje de contacto";
 
   $contenido = "Nombre: $nombre\n";
@@ -13,6 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
   mail($destinatario, $asunto, $contenido);
 
-  // Puedes redirigir al usuario a una página de agradecimiento o mostrar un mensaje de éxito aquí
+  header("Location: form.html");
 }
 ?>
