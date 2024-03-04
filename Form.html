@@ -162,21 +162,6 @@
      
     </div>
 <script src="SUBTITULO.js"></script>
-<script>
-const formulario = document.querySelector('form');
-formulario.addEventListener('submit', function (event) {
-    event.preventDefault();
-
-    const destinatario = "gnprueba9@gmail.com";
-
-    // Obtener los valores de los campos
-    const username = document.getElementById('nombre').value;
-    const  correo= document.getElementById('email').value;
-    const area = document.getElementById('mensaje').value;
-
-    const enlaceMailto = `mailto:${destinatario}?subject=Mensaje%20de%20${encodeURIComponent(nombre)}&body=${encodeURIComponent(mensaje)}%0D%0A%0D%0A${encodeURIComponent(email)}`;
-    window.location.href = enlaceMailto;
-});</script>
 	<br><br><br><br><br><br><br><br>
   <div class="contenedor2">
     <h2>Contacto</h2>
@@ -188,7 +173,8 @@ formulario.addEventListener('submit', function (event) {
       <label for="telefono">Telefono:</label>
       <input type="text"id="tele" name="tele" required>
       <textarea id="area" name="area"  placeholder="Escribe tus comentarios" ></textarea>
-      <button type="submit">Enviar</button>
+      <button type="submit" >Enviar</button>
+	
     
     </form>
     <div class="social-icons">
