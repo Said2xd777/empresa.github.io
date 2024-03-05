@@ -300,9 +300,10 @@ margin-left: 150px}
     }
     #fuente2{
     	font-size: 17.5;
-    	font-family: Arial;
+    	font-family: fuente/Fenix-Regular;
     	font-style: normal;
     	color: white;
+	    aling: left;
     }
     .social-icons {
 	display: flex;
