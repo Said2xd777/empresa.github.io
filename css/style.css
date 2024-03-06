@@ -359,6 +359,8 @@ margin-left: 150px}
  .footer-content{
     display: flex;
     justify-content: space-between;
+	 font-family: fuente/Fenix-Regular;
+	 font-aling: left;
  }
  .link h3{
     font-size: 18px;
