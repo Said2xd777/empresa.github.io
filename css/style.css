@@ -488,6 +488,7 @@ aling: center;
 	 .blog{
         padding: 0 30px 30px 30px;
         flex-direction: column;
+		 text-aling: justify;
     }
     .blog-1{
         margin-bottom: 30px;
