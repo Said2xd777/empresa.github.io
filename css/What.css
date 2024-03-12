@@ -1,0 +1,122 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:#00BFA5;
+}
+h1{
+    text-align:center;
+    color:white;
+    text-shadow:1px 1px 1px black;
+}
+.whatsapp{
+    display:flex;
+    flex-direction:column;
+    width:340px;
+    margin: 0 auto;
+}
+.whatsapp > .header{
+    border-top:10px solid #054D44;
+    display:flex;
+    flex-direction:row;
+    background-color:#075E54;
+    justify-content:space-between;
+    color:white;
+    align-items:center;
+}
+.header > *{
+    padding:5px;
+    box-sizing:border-box;
+}
+.header .imagen > img{
+    border-radius:50%;
+    width:30px;
+}
+.header .info{
+    display:flex;
+    flex-direction:column;
+    color:white;
+    flex-grow:2;
+}
+.header .info > .tlf > input{
+    background-color:#075E54;
+    border:none;
+    color:white;
+}
+.header .info > .estado{
+    font-size:0.8em;
+}
+.header > .icons > *{
+    margin-left:5px;
+    margin-right:5px;
+}
+.whatsapp .conver {
+    background-image:url(../img/wall.jpg);
+    display:flex;flex-direction:column;
+    justify-content:space-between;
+    padding:10px;
+    box-sizing:border-box;
+    min-height:350px;
+}
+.converMessageUser{
+    display:none;
+}
+.conver > .converMessage, .conver > .converMessageUser{
+    align-self:flex-end;
+    width:240px;
+    min-height:30px;
+    background:#e1ffc7;
+    padding: 8px;
+    color: #000;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    margin: 8px 0;
+    background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+}
+
+.whatsapp > .conver > .message{
+    display:flex;flex-direction:row;
+    align-items:center; 
+}
+.message > textarea{
+    padding:5px 20px;
+    width:100%;
+    margin-right:10px;
+    border-radius:15px;
+    background:white;
+    border:none;
+    height:25px;
+    font-size:1em;
+    resize: none;
+    overflow:hidden;
+    outline:none;
+    box-shadow: 1px 1px 1px silver;
+}
+.message > .enviar{
+    background:#075E54;
+    width:40px;
+    height:40px;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+footer{
+    background:#075E54;
+    padding:10px;
+    box-sizing:border-box;
+    color:white;
+    margin-top:30px;
+    width:100%;
+    text-align:center;
+}
+
+footer > a{
+    color:#d2e1ff;
+    text-decoration:none;
+}
+footer > a:hover{
+    text-decoration:underline;
+}
