@@ -1,11 +1,3 @@
- .body {
-      margin: 50px;
-      padding: 100px;
-      height: 100vh;
-      display: flex;
-      overflow: hidden;
-      margin-left: 300px;
-    }
 
     .diagonal-container {
       position: relative;
