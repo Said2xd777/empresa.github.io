@@ -1,13 +1,14 @@
 *{
   margin:0;
   padding:0;
+
 }
 body{
   height:100vh;
   overflow:hidden;
   background:white;
   box-sizing:border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "fenix-regular", sans-serif;
 }
 #wrapper{
   height:480px;
