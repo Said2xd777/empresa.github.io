@@ -153,10 +153,7 @@ function eliminarCursoLS(curso)
 function vaciarLs() {
     localStorage.clear();
 }
-$('input[type="checkbox"]').on('click',fuction(){
-var selected = $(this).parent().parent().parent(); 
-    $(selected).togleclass('highlight');
-});
+
 
 
     
