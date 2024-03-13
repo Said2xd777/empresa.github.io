@@ -90,28 +90,7 @@ label{
 .row:nth-of-type(3) .col-xs-5 .small{
   font-size:.70em;
 }
-footer{
-  height:80px;;
-  background:#e6e6e6;
-  display:flex;
-  flex-direction:row;
-  justify-content:space-between;
-  align-items:center;
-}
-footer .btn{
-  margin:50px 15px 55px 15px;
-  border-radius:20px;
-  padding:.65em 1.6em;
-  cursor: pointer;
-}
-footer :nth-child(1){
-  background-color:#fff;
-  color:#f62f5e;
-}
-footer :nth-child(2){
-  background-color:#f62f5e;
-  color:#fff;
-}
+
 .col-xs-5.highlight{
   border:solid 1px blue;
 }
