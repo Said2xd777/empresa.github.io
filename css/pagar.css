@@ -106,10 +106,10 @@ footer .btn{
 }
 footer :nth-child(1){
   background-color:#fff;
-  color:#f62f5e;
+  color:#FF0000;
 }
 footer :nth-child(2){
-  background-color:#f62f5e;
+  background-color:#FF0000;
   color:#fff;
 }
  
