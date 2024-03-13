@@ -8,7 +8,7 @@ body{
   overflow:hidden;
   background:white;
   box-sizing:border-box;
-  font-family: "fenix-regular", sans-serif;
+  font-family: "fuente/fenix-regular", sans-serif;
 }
 #wrapper{
   height:480px;
