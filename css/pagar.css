@@ -88,7 +88,7 @@ flex-basis:40%;
 .row:nth-of-type(3) .col-xs-5 .small{
   font-size:.70em;
 }
-footer1{
+.footer1{
   height:80px;
   backgorund:#e6e6e6;
   display:flex;
@@ -96,12 +96,12 @@ footer1{
   justify-content:space-between;
   aling-items:center;
 }
-footer1 .btn{
+.footer1 .btn{
   margin:50px 15px 55px 15px;
   border-radius:20px;
   padding:.65em 1.6em;
 }
-footer1 :nth-child(1){
+.footer1 :nth-child(1){
   background-coloir:#fff;
   color:#f62f5e;
 }
