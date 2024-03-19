@@ -88,7 +88,7 @@ function vaciarcarrito()
     return false;    
 }
 function pagarCarrito(){
-    pagar.html;
+   URL = "pagar.html"
 }
 
 //almacenar curso al LS
