@@ -16,7 +16,9 @@ summary {
   display: block;
 }
 
-
+body{
+background: white;
+}
 
 audio,
 canvas,
