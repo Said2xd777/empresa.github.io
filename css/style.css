@@ -378,7 +378,7 @@ aling: center;
 .responsive-table th, .responsive-table td {
     border: 0;
     padding: 8px;
-    text-align: center;
+    text-align: justify;
 }
 .contenedor2 {
 	max-width: 500px;
