@@ -162,7 +162,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	border-bottom: 1px solid #e4e4e4;
-	padding: 20px ;
+	padding: 40px ;
 }
 
 .title-description,
