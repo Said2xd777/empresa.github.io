@@ -2,7 +2,6 @@ const carrito = document.getElementById('carrito');
 const cursos = document.getElementById('lista-cursos');
 const listaCursos = document.querySelector('#lista-carrito tbody')
 const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');
-const pagarCarritoBtn = document.querySelector('#pagar-carrito');
 eventslisteners();
 
 function eventslisteners() 
@@ -87,9 +86,7 @@ function vaciarcarrito()
 
     return false;    
 }
-function pagarCarrito(){
-   URL = "pagar.html"
-}
+
 
 //almacenar curso al LS
 function guardarCursoLocalStorage(curso)
