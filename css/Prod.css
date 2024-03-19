@@ -189,7 +189,7 @@ main {
 	color: #252525;
 	line-height: 22px;
 	margin-top: 25px;
-	padding: 40px;
+	padding: 90px;
 }
 
 .container-social {
@@ -198,6 +198,7 @@ main {
 	padding: 10px 0;
 	align-items: center;
 	border-bottom: 1px solid #e4e4e4;
+	padding: 40px;
 }
 
 .container-social span {
