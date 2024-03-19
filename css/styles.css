@@ -457,6 +457,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     border: 1px solid #e1e1e1;
     background: white;
 }
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+   }
 @media (min-width: 550px) {
     .card {
         text-align: left;
