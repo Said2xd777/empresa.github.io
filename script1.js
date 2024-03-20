@@ -1,11 +1,14 @@
 const carrito = document.getElementById('carrito');
 const cursos = document.getElementById('lista-cursos');
+const boton = document.getelementbyid('boton');
 const listaCursos = document.querySelector('#lista-carrito tbody')
 const vaciarCarritoBtn = document.querySelector('#vaciar-carrito');
+
 eventslisteners();
 
 function eventslisteners() 
 {
+    boton.addEventListener('click', cambiacolor);
     //atento a cuando se presiona agregar carrito
     cursos.addEventListener('click', comprarCurso);
 
@@ -19,6 +22,9 @@ function eventslisteners()
     //mostrar lista de cursos en carrito de compra al cargar DOM-LS
     document.addEventListener('DOMContentLoaded', leerLS)
 
+}
+function cambiacolor(){
+window.location.href="pagar.html";    
 }
 
 function comprarCurso(e) 
