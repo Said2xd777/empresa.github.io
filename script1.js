@@ -79,6 +79,8 @@ function eliminarCurso(e)
 //vacias Carrito
 function vaciarcarrito() 
 {
+      miBoton.style.backgroundColor = "skyblue";
+  miBoton.style.color = "white";
     //listaCursos.innerHTML = '';
     while(listaCursos.firstChild){
         listaCursos.removeChild(listaCursos.firstChild);
