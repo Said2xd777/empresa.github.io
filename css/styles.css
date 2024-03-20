@@ -16,10 +16,7 @@ summary {
   display: block;
 }
 
-body{
-	background-color: white;
 
-}
 
 audio,
 canvas,
@@ -305,21 +302,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 td,
 th {
   padding: 0;
 }
+
+/*custom*/
 body {
-    background-color: #fff6f6;
+    background-color: #fff6f6
 }
 
-h1 {
-    text-align: center;
-}
-h4 {
-    font-size: 16px;
-    font-weight: 700;
-}
 header {
     padding: 20px 0 0 0;
     background: white;
@@ -458,14 +451,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', end
     border: 1px solid #e1e1e1;
     background: white;
 }
-.container1 {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-   }
 @media (min-width: 550px) {
     .card {
         text-align: left;
@@ -584,8 +569,6 @@ text-decoration: none;
 
 }
 
-html {
-  font-size: 62.5%; }
 body {
   font-size: 1.5em;
   line-height: 1.6;
