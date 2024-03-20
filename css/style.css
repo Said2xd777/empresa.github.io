@@ -408,6 +408,7 @@ aling: center;
 }
 .blog{
     display: flex;
+	font-family: fuete/Fenix-Regular;
     justify-content: space-between;
     padding-bottom: 100px;
 	paddig: 10px;
