@@ -411,6 +411,7 @@ aling: center;
     justify-content: space-between;
     padding-bottom: 100px;
 	paddig: 10px;
+	text-aling: left;
 }
 .blog-1{
     flex-basis: calc(33.3% - 30px);
