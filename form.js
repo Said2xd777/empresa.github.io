@@ -23,7 +23,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${fecha}%0A
 		*Indica la hora de tu llamada de cotizacion*%0A
 		${hora}%0A
-		*Productos que quieras cotizar*%0A
+		*Teléfono de contacto*%0A
 		${empleado}%0A
 		*¿Cuál es el servicio que se desea realizar?*%0A
 		${servicio}`;
