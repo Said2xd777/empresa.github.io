@@ -3,16 +3,17 @@
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: fuente/Fenix-Regular;
   background-image: url();
   background-size: 100vw 100vh;
   background-attachment: fixed;
 }
+    
 .formulario {
   width: 500px;
   max-width: 100%;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 70px;
   padding: 20px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
   position: relative;
