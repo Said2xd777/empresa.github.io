@@ -41,8 +41,8 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 .formulario__parrafo {
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 10px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
 }
 .formulario__input,
 .formulario__label {
