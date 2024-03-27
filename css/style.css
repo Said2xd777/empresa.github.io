@@ -416,6 +416,7 @@ aling: center;
 }
 .blog-1{
     flex-basis: calc(33.3% - 30px);
+	border: none;
 }
 .blog-1 img{
     margin-bottom: 20px;
