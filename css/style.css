@@ -411,8 +411,8 @@ aling: center;
 	font-family: fuete/Fenix-Regular;
     justify-content: space-between;
     padding-bottom: 100px;
-	paddig: 10px;
-	text-aling: left;
+	padding: 10px;
+	text-align: left;
 }
 .blog-1{
     flex-basis: calc(33.3% - 30px);
