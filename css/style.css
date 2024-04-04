@@ -414,7 +414,7 @@ aling: center;
 	padding: 30px;
 	text-align: center;
 }
-.blog:hover {
+.animacion:hover {
 	transform: traslate:(-15px);
 	box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2);
 }
