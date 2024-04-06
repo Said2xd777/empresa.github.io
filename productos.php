@@ -659,7 +659,7 @@ img{
                         $120.000,00
                     </span>
                 </div>
-                <button class="btn-pagar"><a href="formularioCompra.html">Pagar  </a></button>
+                <button class="btn-pagar"><a href="formularioCompra.html">Pagar</a></button>
             </div>
         </div>
     </section>
