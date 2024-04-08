@@ -166,7 +166,7 @@ nav {
   display: block;
 }
 
-.contenedor {
+.contenedores {
 	width: 60%; height: 500px; margin: 150px auto; box-shadow: 5px 5px 15px #;
 	background: rgba(0, 0, 0);		border-radius: 30px;	font-family: fuente2;
 }
