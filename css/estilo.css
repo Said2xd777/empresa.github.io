@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 *{
     margin: 0;
     padding:0;
-    font-family: 'Open Sans';
+    font-family: 'fuente/Fenix-Regular';
 }
-header{
+/*header{
     background: url(img);    
     background-size: cover;
     background-position:center;
     height: 300px;
-}
-header h1{
+}*/
+.h1{
     text-align: center;
     font-size: 35px;
     /* background-color: #000; */
