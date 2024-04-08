@@ -15,13 +15,13 @@ document.querySelector("#submit").addEventListener("click", e => {
   resp.classList.remove("send");
 
   const url = `https://api.whatsapp.com/send?phone=$5518667044}&text=
-		*Cotizaciones*%0A
+		*Cotizaciones de*%0A
 		*Productos*%0A%0A
 		*¿Cuál es tu nombre?*%0A
 		${cliente}%0A
-		*Indica la fecha de tu llamada de cotizacion*%0A
+		*Indica la fecha de tu llamada de cotización*%0A
 		${fecha}%0A
-		*Indica la hora de tu llamada de cotizacion*%0A
+		*Indica la hora de tu llamada de cotización*%0A
 		${hora}%0A
 		*Teléfono de contacto*%0A
 		${empleado}%0A
