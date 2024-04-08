@@ -45,7 +45,7 @@ function ready(){
 }
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked(){
-   window.location.href = "formularioCompra.html";
+   window.location.href = "formCompra.html";
     //Elimino todos los elmentos del carrito//
     var carritoItems = document.getElementsByClassName('carrito-items')[0];
     while (carritoItems.hasChildNodes()){
