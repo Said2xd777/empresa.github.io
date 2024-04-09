@@ -8,7 +8,7 @@ document.querySelector("#submit").addEventListener("click", e => {
   const fecha = document.querySelector("#fecha").value;
   const hora = document.querySelector("#hora").value;
   const empleado = document.querySelector("#empleado").value;
-  const servicio = document.querySelector("#empleado").value;
+  const servicio = document.querySelector("#producto").value;
   const resp = document.querySelector("#respuesta");
 
   resp.classList.remove("fail");
@@ -26,7 +26,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*Teléfono de contacto*%0A
 		${empleado}%0A
 		*Productos para su cotización*%0A
-		${empleado}`;
+		${producto}`;
 
   if (cliente === "" || fecha === "" || hora === "") {
     resp.classList.add("fail");
