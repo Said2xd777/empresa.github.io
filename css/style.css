@@ -418,8 +418,16 @@ aling: center;
 	transform: traslate:(-15px);
 	box-shadow: 0 12px 10px rgba(0, 0, 0, 0.2);
 }
-
-
+	.boton{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: black;
+    color: #4dbf51;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 	
 .blog-1{
     flex-basis: calc(33.3% - 30px);
