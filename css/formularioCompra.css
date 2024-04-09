@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: fuente/Fenix-Regular;
+  font-family: 'fuente/Fenix-Regular';
   background-image: url();
   background-size: 100vw 100vh;
   background-attachment: fixed;
