@@ -25,7 +25,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		${hora}%0A
 		*Teléfono de contacto*%0A
 		${empleado}%0A
-		*¿Cuál es el servicio que se desea realizar?*%0A
+		*Productos para su cotización*%0A
 		${servicio}`;
 
   if (cliente === "" || fecha === "" || hora === "") {
