@@ -26,7 +26,7 @@ document.querySelector("#submit").addEventListener("click", e => {
 		*Teléfono de contacto*%0A
 		${empleado}%0A
 		*Productos para su cotización*%0A
-		${servicio}`;
+		${empleado}`;
 
   if (cliente === "" || fecha === "" || hora === "") {
     resp.classList.add("fail");
