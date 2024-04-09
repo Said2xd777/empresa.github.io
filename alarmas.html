@@ -162,7 +162,20 @@
             <tr>
                 <td><h1>Sistema de Alarmas</h1><br>   Mantenga su propiedad segura con nuestros sistemas de alarmas. Detectores
 de movimiento, sensores de puertas y ventanas, combinados con una respuesta rápida, le ofrecen
-una protección efectiva contra intrusiones y emergencias<br>  <a href="productos.html" class="btn">Ver</a>
+una protección efectiva contra intrusiones y emergencias<br>   <button class="boton" id="miBoton">Ver</button>
+
+
+<script>
+  const boton = document.getElementById("miBoton");
+  boton.addEventListener("click", cambiaColor);
+
+  function cambiaColor() {
+  
+  window.location.href = "productos.html";
+	  miBoton.style.backgroundColor = "red";
+  miBoton.style.color = "white";
+}
+</script>
         	<td><img src="img/sis.jpg" height="300" width="300px"></td>
 		<td><img src="img/sis1.jpg" height="300" width="300px"></td>
 		<td><img src="img/sis2.jpg" height="300" width="300px"></td>
