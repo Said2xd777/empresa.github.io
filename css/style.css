@@ -180,9 +180,15 @@ height: 80px;
 	width: 1000px;
 	height: auto;
 }
+
+h1{
+	font-size: 60px;
+
+}
+
 #titulo{
 	font-family: fuente/fenix-regular;
-	font-size: 20px;
+	font-size: 60px;
 	font-style: none;
 	text-aling: center;
 	color: greey;
