@@ -163,7 +163,20 @@
             <tr>
                 <td><h1>Cómputo</h1><br>Optimice su rendimiento informático con nuestras soluciones de cómputo.
 			Desde servidores hasta estaciones de trabajo, 
-			ofrecemos equipos y servicios para satisfacer sus necesidades específicas.<br>  <a href="productos.html" class="btn">Ver</a>
+			ofrecemos equipos y servicios para satisfacer sus necesidades específicas.<br>   <button class="boton" id="miBoton">Ver</button>
+
+
+<script>
+  const boton = document.getElementById("miBoton");
+  boton.addEventListener("click", cambiaColor);
+
+  function cambiaColor() {
+  
+  window.location.href = "productos.html";
+	  miBoton.style.backgroundColor = "red";
+  miBoton.style.color = "white";
+}
+</script></td>
         	<td><img src="img/con1.jpg" height="300" width="300px"></td>
 		<td><img src="img/con2.jpg" height="300" width="300px"></td>
 		<td><img src="img/con3.jpg" height="300" width="300px"></td>
