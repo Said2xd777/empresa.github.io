@@ -189,7 +189,7 @@ h1{
 }
 
 #titulo{
-	font-family: fuente/fenix-regular;
+	font-family: 'fuente/Fenix-Regular';
 	font-size: 60px;
 	font-style: none;
 	text-aling: center;
@@ -197,13 +197,13 @@ h1{
 }
 
 #productos{
-	font-family: fuente/fenix-regular;
+	font-family: 'fuente/Fenix-Regular;
 	font-size: 1.8vw;
 	font-style: none;
 	color: greey;
 }
 #productos1{
-	font-family: fuente/fenix-regular;
+	font-family: 'fuente/Fenix-Regular;
 	font-size: 1.5vw;
 	font-style: none;
 	color: greey;
@@ -288,14 +288,14 @@ margin-left: 150px}
 
         #fuente1{
     	font-size: 25.5px;
-    	font-family: fuente/fenix-regular;
+    	font-family:'fuente/Fenix-Regular';
     	font-style: normal;
     	color: white;
 		text-aling: justify;
     }
     #fuente2{
     	font-size: 17.5;
-    	font-family: fuente/Fenix-Regular;
+    	font-family: 'fuente/Fenix-Regular';
     	font-style: normal;
     	color: white;
 	   text-aling: justify;
@@ -348,7 +348,7 @@ margin-left: 150px}
     margin-top: 5px;
 }
 .footer{
-    padding: 50px 0;
+    padding: 0;
     background-color: black;
  }
  .footer-content{
@@ -360,7 +360,7 @@ margin-left: 150px}
  .link h3{
     font-size: 18px;
     color: white;
-    font-family:  fuente/Fenix-regular;
+    font-family:  'fuente/Fenix-Regular';
     text-transform: uppercase;
     margin-bottom: 20px;
  }
@@ -411,12 +411,12 @@ aling: center;
         }
 	 .p {
 	aling: center;
-	font-family: fuente/fenix-regular;
+	font-family: 'fuente/Fenix-Regular';
 	font-size: 1em;
 }
 .blog{
     display: flex;
-	font-family: fuete/Fenix-Regular;
+	font-family: 'fuente/Fenix-Regular';
     justify-content: space-between;
     padding-bottom: 100px;
 	padding: 30px;
@@ -455,7 +455,7 @@ aling: center;
  .blog p{
     font-size: 16px;
     color: black;
-	 font-family: fuente/Fenix-Regular;
+	 font-family: 'fuente/Fenix-Regular';
 	 text-aling: justify;
 	 aling: left;
  }
@@ -493,7 +493,7 @@ aling: center;
     text-align: center;
 }
 	.footer{
-        padding: 30px;
+        padding: 0;
     }
     .footer-content{
         flex-direction: column;
